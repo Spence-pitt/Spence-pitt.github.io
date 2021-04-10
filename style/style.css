@@ -1,7 +1,28 @@
 img {
-    width: 166px;
-    height: 250px;
+    width: 506px;
+    height: 710px;
+    float: right;
 }
 body {
     background-color: rgb(212, 216, 216);
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+    border-spacing: 3px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+#schedule {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
