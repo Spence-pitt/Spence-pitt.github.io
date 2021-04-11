@@ -12,11 +12,11 @@ body {
     /*padding-left: 30px;
     padding-right: 30px;*/
 }
-@media only screen and (max-device-width: 1366px) {
+/*@media only screen and (max-device-width: 1366px) {
     .parallax1.parallax2.parallax3.parallax4 {
         background-attachment: scroll;
     }
-}
+}*/
 .parallax1 {
     background-image: url("/img/books.jpg");
     min-height: 300px;
