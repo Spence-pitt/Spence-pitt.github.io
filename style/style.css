@@ -12,6 +12,11 @@ body {
     /*padding-left: 30px;
     padding-right: 30px;*/
 }
+@media only screen and (max-device-width: 1366px) {
+    .parallax1.parallax2.parallax3.parallax4 {
+        background-attachment: scroll;
+    }
+}
 .parallax1 {
     background-image: url("/img/books.jpg");
     min-height: 300px;
@@ -19,6 +24,15 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.parallaxheader {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 125px;
+}
+.parallaxheader > span {
+    background-color: rgb(63, 63, 63);
 }
 .parallax2 {
     background-image: url("/img/weather.jpg");
@@ -56,6 +70,8 @@ body {
     text-align: center;
 }
 #interests {
+    padding-left: 200px;
+    padding-right: 200px;
     text-align: center;
     font-size: 20px;
 }
@@ -75,10 +91,10 @@ body {
     padding-left: 400px;
     font-size: 25px;
 }
-#bookheader {
+/*#bookheader {
     font-size: 30px;
     text-align: center;
-}
+}*/
 table, th, td {
     border: 1px solid black;
 }
