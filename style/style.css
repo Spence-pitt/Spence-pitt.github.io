@@ -124,3 +124,10 @@ h1 {
     margin-right: auto;
     width: 80%;
 }
+.credit {
+    font-size: smaller;
+}
+footer {
+    padding-top: 10px;
+    text-align: center;
+}
